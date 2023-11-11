@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color:white;
+    display: flex;
+    
+    justify-content: center;
+}
+.box{
+    margin-top: 50px;
+    background-image: linear-gradient(to right, #086d9e, #0090bd, #00b2bf, #00d1a0, #12eb66);
+    max-width: 90%;
+    padding: 80px;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow:  -30px 23px 47px #7f7f7f,
+             -23px -23px 47px #ffffff;
+}
+.box input{
+    padding: 20px 50px;
+    border-style: none;
+    border-radius: 20px;
+  font-size: 20px;
+  margin-left: -10px;
+}
+
+
+.box .searchsection img{
+height: 50px;
+width: 50px;
+border-radius: 30px;
+margin-left: 20px;
+cursor: pointer;
+}
+.searchsection{
+    display: flex;
+    
+}
+ .forecast{
+    margin-top: 70px;
+    height: 150px;
+    width: 200px;
+    margin-left: 30px;
+}
+.cname{
+    color: white;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10000;
+}
+.secti{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.secti img{
+    height: 60px;
+    width: 60px;
+}
+.temp{
+    font-size: 70px;
+    margin-left: 50px;
+    color: white;
+}
